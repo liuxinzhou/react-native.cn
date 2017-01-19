@@ -687,6 +687,10 @@ react-native start
 - 使用你喜欢的文本编辑器打开`index.android.js`并随便改上几行
 - 按两下R键，或是用Menu键（通常是F2，在Genymotion模拟器中是`⌘+M`）打开开发者菜单，然后选择 *Reload JS* 就可以看到你的最新修改。
 - 在终端下运行`adb logcat *:S ReactNative:V ReactNativeJS:V`可以看到你的应用的日志。
+### 问题
+10、注意问题
+问题： 页面显示白板：
+解决方案： 在手机的安全设置里面找到该应用，将该应用的悬浮框提示修改为允许，返回的app摇一摇，设置dev seting 的host为服务器Ip+8081端口号
 
 ### 完成了！
 
